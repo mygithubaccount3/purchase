@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #648880;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.title {
+    color: #648880;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comments {
+    width: 100%;
+}
+
+input, .passes, .comments, button {
+    border: 1px solid #e2e4e5;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #adadad;
+}
+
+.passes {
+    background-color: white;
+    color: grey;
+    width: 30%;
+}
+
+.row {
+    margin: 10px;
+    padding: 10px;
+}
